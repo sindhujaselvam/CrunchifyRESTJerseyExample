@@ -14,10 +14,12 @@ public class TestJUNIT {
         setBaseUrl("https://www.transactpayments.com.au/TradePortal");
     }
 
+	/**
+	*	added by sandeep
+	*/
 	
     @Test
-    
-    public void test1() {
+	public void test1() {
     	setScriptingEnabled(false);
         beginAt("login.html"); //Open the browser on http://localhost:8080/test/home.xhtml
         assertTitleEquals("Transact Payments - Logon");
